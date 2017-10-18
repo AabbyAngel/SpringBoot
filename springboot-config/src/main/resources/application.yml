@@ -1,0 +1,8 @@
+my:
+  name: 小领子
+  age: 26
+  number: ${random.int}
+  uuid: ${random.uuid}
+  max: ${random.int(10)}
+  value: ${random.value}
+  greeting: Hello,I'm ${my.name}
